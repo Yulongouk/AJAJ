@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ajax and Json</title>
+	<script type="text/javascript">
+		function cl(){
+			var outRequest = new XMLHttpRequest();
+     		 outRequest.open('GET','Phone1.json',true);
+       	 	outRequest.onload = function()
+    			{
+				    console.log(outRequest.responseText);
+    			};
+        	outRequest.send();
+		}
+	</script>
+</head>
+<body>
+   <h1>Ajax and Json</h1>
+   <button onclick="cl()"> click here</button>
+</body>
+</html>

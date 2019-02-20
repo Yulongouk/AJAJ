@@ -1,0 +1,17 @@
+[
+		{
+          Brand : "Apple"
+          Year : 2017
+          Name : "IphoneX"
+		},
+		{ 
+          Brand : "Apple"
+          Year : 2018
+          Name : "IphoneXS Max"
+		},
+		{
+          Brand : "Apple"
+          Year : 2018
+          Name : "IphoneXR"
+		}
+		]

@@ -1,0 +1,17 @@
+[
+		{
+          Brand : "Samsung"
+          Year : 2019
+          Name : "Galaxy S10"
+		},
+		{ 
+          Brand : "Samsung"
+          Year : 2018
+          Name : "Galaxy Note9"
+		},
+		{
+          Brand : "Samsung"
+          Year : 2018
+          Name : "Galaxy S9+"
+		}
+		]
