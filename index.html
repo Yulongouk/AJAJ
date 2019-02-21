@@ -8,7 +8,9 @@
      		 outRequest.open('GET','Phone1.json',true);
        	 	outRequest.onload = function()
     			{
-				    console.log(outRequest.responseText);
+			   var net = JSON.parse(this.responseText)
+			   console.log(net[0].Name);
+			            
     			};
         	outRequest.send();
 		}
